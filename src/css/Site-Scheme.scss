@@ -1,0 +1,12 @@
+$base-color: #f8f9fa;
+$base-font-color: #1d1d1d;
+$nav-color: #343a40;
+$nav-font-color: rgba(0, 0, 0, 0.5);
+$nav-font-hover: rgba(0, 0, 0, 0.7);
+$secondary-color: #39bfa4;
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSans'), url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}

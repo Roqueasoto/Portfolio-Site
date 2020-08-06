@@ -1,0 +1,33 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./Site-Scheme.scss";
+
+.navbar-brand, .navbar{
+  font-family: OpenSans;
+}
+
+.navbar{
+  font-size: 18px;
+}
+
+.container-fluid {
+  max-width: 1920px;
+}
+
+.row-nav {
+  min-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar .burger-menu, .dropdown-item {
+    text-align: center;
+  }
+  .social-bar{
+    justify-content: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .social-bar{
+    justify-content: end;
+  }
+}

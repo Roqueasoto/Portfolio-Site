@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Open Sans";
+  src: local("OpenSans"), url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+.social {
+  padding: 10px 5px;
+}
+
+a.social {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  color: rgba(0, 0, 0, 0.7);
+  transform: translateY(-2px);
+}
+
+/*# sourceMappingURL=Social.css.map */

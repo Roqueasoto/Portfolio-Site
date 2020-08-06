@@ -9913,12 +9913,35 @@ h3 {
   font-family: "Open Sans";
   src: local("OpenSans"), url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
 }
-body {
-  background-color: #f8f9fa;
+.navbar-brand, .navbar {
+  font-family: OpenSans;
 }
 
-h1 {
-  color: #1d1d1d;
+.navbar {
+  font-size: 18px;
 }
 
-/*# sourceMappingURL=App.css.map */
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  max-width: 1920px;
+}
+
+.row-nav {
+  min-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar .burger-menu, .dropdown-item {
+    text-align: center;
+  }
+
+  .social-bar {
+    justify-content: center;
+  }
+}
+@media (min-width: 769px) {
+  .social-bar {
+    justify-content: end;
+  }
+}
+
+/*# sourceMappingURL=Nav.css.map */

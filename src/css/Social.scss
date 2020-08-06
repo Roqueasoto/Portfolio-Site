@@ -1,0 +1,17 @@
+@import "./Site-Scheme.scss";
+
+.social {
+  padding: 10px 5px;
+}
+
+a.social {
+  color: $nav-font-color;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  color: $nav-font-hover;
+  transform: translateY(-2px);
+}
