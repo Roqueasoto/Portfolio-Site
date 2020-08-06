@@ -9,6 +9,10 @@
   font-size: 18px;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+  background-color: $secondary-color;
+}
+
 .container-fluid {
   max-width: 1920px;
 }

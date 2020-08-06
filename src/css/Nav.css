@@ -9921,6 +9921,10 @@ h3 {
   font-size: 18px;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #39bfa4;
+}
+
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   max-width: 1920px;
 }
