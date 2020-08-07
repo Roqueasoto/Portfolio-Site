@@ -9,8 +9,17 @@
   font-size: 18px;
 }
 
+.dropdown-menu{
+  background-color: transparent;
+}
+
 .dropdown-item.active, .dropdown-item:active {
   background-color: $secondary-color;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: $secondary-color;
+  color: #fff;
 }
 
 .container-fluid {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Nav, Navbar, NavDropdown} from "react-bootstrap";
-import './css/Nav.css';
+import '../css/Nav.css';
 import Social from "./Social";
 
 export class Navigation extends React.Component {
@@ -43,9 +43,9 @@ export class Navigation extends React.Component {
                                     >
                                         <NavDropdown.Item as={Link} to="/projects">All Projects</NavDropdown.Item>
                                         <NavDropdown.Divider className="color-nav" />
-                                        <NavDropdown.Item href="#Project1">Project 1</NavDropdown.Item>
-                                        <NavDropdown.Item href="#Project2">Project 2</NavDropdown.Item>
-                                        <NavDropdown.Item href="#Project3">Project 3</NavDropdown.Item>
+                                        <NavDropdown.Item as={Link} to="/project1">Project 1</NavDropdown.Item>
+                                        <NavDropdown.Item as={Link} to="/project2">Project 2</NavDropdown.Item>
+                                        <NavDropdown.Item as={Link} to="/project3">Project 3</NavDropdown.Item>
                                     </NavDropdown>
                                 </Nav>
                             </Navbar.Collapse>

@@ -9921,8 +9921,17 @@ h3 {
   font-size: 18px;
 }
 
+.dropdown-menu {
+  background-color: transparent;
+}
+
 .dropdown-item.active, .dropdown-item:active {
-  background-color: #39bfa4;
+  background-color: #33cc99;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #33cc99;
+  color: #fff;
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
