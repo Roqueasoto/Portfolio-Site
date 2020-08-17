@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import { Container, Nav, Navbar} from "react-bootstrap";
 import '../css/Nav.css';
-import Social from "./Social";
+import Resume from '../resume_Roque.pdf';
 
 export class Navigation extends React.Component {
 
@@ -21,43 +21,19 @@ export class Navigation extends React.Component {
         }
     };
 
-    handleClick = () => {
-        this.setState({isClicked: !this.state.isClicked});
-    }
-
     render() {
         return (
-            <Navbar variant="light" expand="lg" sticky="top">
+            <Navbar variant="light" expand="lg">
                 <Container fluid>
-                    <Row className="row-nav">
-                        <Col className="burger-menu" xs={{  span: 12, order: 3 }} md={{ order: 1 }}>
-                            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                            <Navbar.Collapse id="basic-navbar-nav">
-                                <Nav className="mr-auto">
-                                    <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
-                                    <NavDropdown title="Portfolio" id="basic-nav-dropdown"
-                                                 onMouseEnter={this.handleShow}
-                                                 onMouseLeave={this.handleHide}
-                                                 show={this.state.isShown}
-                                                 onClick={this.handleClick}
-                                    >
-                                        <NavDropdown.Item as={Link} to="/projects">All Projects</NavDropdown.Item>
-                                        <NavDropdown.Divider className="color-nav" />
-                                        <NavDropdown.Item as={Link} to="/project1">Project 1</NavDropdown.Item>
-                                        <NavDropdown.Item as={Link} to="/project2">Project 2</NavDropdown.Item>
-                                        <NavDropdown.Item as={Link} to="/project3">Project 3</NavDropdown.Item>
-                                    </NavDropdown>
-                                </Nav>
-                            </Navbar.Collapse>
-                        </Col>
-                        <Col className="d-flex justify-content-center" md={{ order: 1 }} lg={{ order: 2 }}>
-                            <Navbar.Brand as={Link} to="/home">Roque Soto Castaneda</Navbar.Brand>
-                        </Col>
-                        <Col className="d-flex social-bar" xs={{ span: 12, order: 2 }}
-                             md={{ order: 3 }}>
-                            <Social/>
-                        </Col>
-                    </Row>
+                    <Navbar.Brand as={Link} to="/home">Roque Soto Castaneda</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="ml-auto">
+                            <Nav.Link as={Link} to="/home" >Home</Nav.Link>
+                            <Nav.Link href={Resume} target='_blank' rel="noopener noreferrer">Resume</Nav.Link>
+                            <Nav.Link as={Link} to="/aboutMe/">About Me</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         );

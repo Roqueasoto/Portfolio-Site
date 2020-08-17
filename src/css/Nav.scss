@@ -1,46 +1,35 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./Site-Scheme.scss";
 
-.navbar-brand, .navbar{
-  font-family: OpenSans;
+.navbar-light .navbar-brand {
+  font-family: MontserratMedium, serif;
+  font-style: Italic;
+  font-size: 20px;
+  color: $base-font-color;
 }
 
 .navbar{
+  font-family: MontserratBold, sans-serif;
   font-size: 18px;
+  padding-top: 15px;
+  color: $base-font-color;
 }
 
-.dropdown-menu{
-  background-color: transparent;
+a.nav-link {
+  position: relative;
+  margin-bottom: 5px;
 }
 
-.dropdown-item.active, .dropdown-item:active {
-  background-color: $secondary-color;
+a.nav-link:focus {
+  color: $secondary-base-color;
 }
 
-.dropdown-item:hover, .dropdown-item:focus {
-  background-color: $secondary-color;
-  color: #fff;
+a.nav-link:hover, a.nav-link:active {
+  color: $base-font-color;
+  border-bottom: 2px solid $secondary-color;
+  margin-bottom: -2px;
 }
 
 .container-fluid {
-  max-width: 1920px;
-}
-
-.row-nav {
-  min-width: 100%;
-}
-
-@media (max-width: 768px) {
-  .navbar .burger-menu, .dropdown-item {
-    text-align: center;
-  }
-  .social-bar{
-    justify-content: center;
-  }
-}
-
-@media (min-width: 769px) {
-  .social-bar{
-    justify-content: end;
-  }
+  max-width: 1440px;
 }

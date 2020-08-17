@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "MontserratBlack";
+  src: local("MontserratBlack"), url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratBold";
+  src: local("MontserratBold"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratExtraBold";
+  src: local("MontserratExtraBold"), url("../fonts/Montserrat/Montserrat-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratExtraLight";
+  src: local("MontserratExtraLight"), url("../fonts/Montserrat/Montserrat-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratLight";
+  src: local("MontserratLight"), url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratMedium";
+  src: local("MontserratMedium"), url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: local("MontserratSemiBold"), url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratThin";
+  src: local("MontserratThin"), url("../fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
+}
+.card-row {
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* relevant styles */
+.card-img-wrap {
+  position: relative;
+}
+
+.card-img-over {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #0C2117;
+  color: #33cc99;
+  font-family: MontserratMedium, sans-serif;
+  font-style: Italic;
+  font-size: 30px;
+  margin-bottom: 0;
+  visibility: hidden;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.card-img-wrap:hover .card-img-over {
+  visibility: visible;
+  opacity: 1;
+}
+
+ul.card-list {
+  padding-left: 20px;
+  color: #76867E;
+}
+
+@media only screen and (min-width: 481px) {
+  .card {
+    width: 445px;
+    background: #f8f9fa;
+  }
+
+  .card .h5 {
+    color: #d47360;
+    font-family: MontserratSemiBold, sans-serif;
+    font-style: Italic;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  .card .card-text {
+    color: #76867E;
+    font-family: MontserratMedium, sans-serif;
+    font-style: Italic;
+    font-size: 20px;
+  }
+
+  ul.card-list li {
+    color: #76867E;
+    font-family: MontserratMedium, sans-serif;
+    font-style: Italic;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .card {
+    background: #f8f9fa;
+    width: 340px;
+  }
+
+  .card .h5 {
+    color: #d47360;
+    font-family: MontserratSemiBold, sans-serif;
+    font-style: Italic;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .card .card-text {
+    color: #76867E;
+    font-family: MontserratMedium, sans-serif;
+    font-style: Italic;
+    font-size: 15px;
+  }
+
+  ul.card-list li {
+    color: #76867E;
+    font-family: MontserratMedium, sans-serif;
+    font-style: Italic;
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=PortfolioCards.css.map */

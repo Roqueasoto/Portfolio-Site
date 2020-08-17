@@ -1,6 +1,6 @@
 import React from "react";
 import Thumbnail from './Thumbnail.js';
-import '../css/App.css';
+import './css/App.css';
 
 function Projects(props) {
     return (

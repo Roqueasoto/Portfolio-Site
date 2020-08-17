@@ -4,7 +4,7 @@
 
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 300ms ease-in;
+  transition: opacity 5500ms ease-in;
 }
 
 .fade-exit {
@@ -13,16 +13,28 @@
 
 .fade-exit.fade-exit-active {
   opacity: 0.01;
-  transition: opacity 50ms ease-in;
+  transition: opacity 5000ms ease-in;
 }
 
 div.transition-group {
   position: relative;
+  display: block;
+  height: auto;
 }
 
 section.route-section {
-  position: absolute;
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after{
+  clear: both;
+  content: "";
+  display: table;
 }

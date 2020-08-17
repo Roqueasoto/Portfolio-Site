@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './fonts/Open_Sans/OpenSans-Regular.ttf';
 import './css/index.css';
-import App from './App';
+import {App} from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
