@@ -46,7 +46,7 @@ ul.card-list {
   color: $base-font-color-light;
 }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 1151px) {
   .card {
     width: 445px;
     background: $base-color;
@@ -58,6 +58,10 @@ ul.card-list {
     font-style: Italic;
     font-size: 25px;
     margin-bottom: 0;
+  }
+
+  .card-img-over {
+    font-size: 30px;
   }
 
   .card .card-text {
@@ -75,6 +79,39 @@ ul.card-list {
   }
 }
 
+@media only screen and (min-width: 481px) and (max-width: 1150px) {
+  .card {
+    width: 445px;
+    background: $base-color;
+  }
+
+  .card .h5{
+    color: $highlight-color;
+    font-family: MontserratSemiBold, sans-serif;
+    font-style: Italic;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .card-img-over {
+    font-size: 20px;
+  }
+
+  .card .card-text {
+    color: $base-font-color-light;
+    font-family: MontserratMedium, sans-serif;
+    font-style: Italic;
+    font-size: 16px;
+  }
+
+  ul.card-list li {
+    color: $base-font-color-light;
+    font-family: MontserratMedium, sans-serif;
+    font-style: Italic;
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .card {
     background: $base-color;
@@ -87,6 +124,11 @@ ul.card-list {
     font-style: Italic;
     font-size: 20px;
     margin-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .card-img-over {
+    font-size: 24px;
   }
 
   .card .card-text {
@@ -101,5 +143,6 @@ ul.card-list {
     font-family: MontserratMedium, sans-serif;
     font-style: Italic;
     font-size: 15px;
+    margin-left: 10px;
   }
 }

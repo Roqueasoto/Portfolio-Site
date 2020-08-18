@@ -107,7 +107,11 @@ h1 mark {
     color: #33cc99;
     font-family: MontserratSemiBold, sans-serif;
     font-size: 35px;
-    margin-top: 90px;
+    margin-top: 80px;
+  }
+
+  .jumbo h1.extra-margin {
+    margin-top: 125px;
   }
 
   .jumbo h2 {
@@ -117,7 +121,7 @@ h1 mark {
     font-size: 30px;
     margin-top: 5px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 105px;
   }
 
   .jumbo {
@@ -127,56 +131,190 @@ h1 mark {
     padding-top: 60px;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 800px) and (max-width: 1250px) {
   .graphic-container {
     justify-content: center;
     height: 550px;
   }
 
   .splash-page {
-    width: 1230px;
+    width: 770px;
     margin-top: 60px;
   }
 
-  h1 {
+  h1.splash-title {
     color: #4A6058;
     font-family: MontserratExtraBold, sans-serif;
-    font-size: 45px;
-    padding-top: 15px;
+    font-size: 30px;
+    margin-top: 155px;
+    margin-bottom: 0;
   }
 
   h2.splash-title {
     color: #76867E;
     font-family: MontserratLight, sans-serif;
     font-style: Italic;
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .jumbo h1 {
+    color: #33cc99;
+    font-family: MontserratSemiBold, sans-serif;
+    font-size: 25px;
+    margin-top: 80px;
+  }
+
+  .jumbo h1.extra-margin {
+    margin-top: 125px;
+  }
+
+  .jumbo h2 {
+    color: #33cc99;
+    font-family: MontserratLight, sans-serif;
+    font-style: Italic;
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 105px;
+  }
+
+  .jumbo {
+    background-color: #0C2117;
+    color: #33cc99;
+    padding-bottom: 50px;
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 799px) {
+  .graphic-container {
+    justify-content: center;
+    height: 550px;
+  }
+
+  .splash-page {
+    width: 480px;
+    margin-top: 60px;
+  }
+
+  h1.splash-title {
+    color: #4A6058;
+    font-family: MontserratExtraBold, sans-serif;
     font-size: 30px;
-    margin-top: 15px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  h2.splash-title {
+    color: #76867E;
+    font-family: MontserratLight, sans-serif;
+    font-style: Italic;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  div.image {
+    width: 480px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .jumbo h1 {
+    color: #33cc99;
+    font-family: MontserratSemiBold, sans-serif;
+    font-size: 22px;
+    margin-top: 25px;
+  }
+
+  .jumbo h1.extra-margin {
+    margin-top: 40px;
+  }
+
+  .jumbo h2 {
+    color: #33cc99;
+    font-family: MontserratLight, sans-serif;
+    font-style: Italic;
+    font-size: 17px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 105px;
+  }
+
+  .jumbo {
+    background-color: #0C2117;
+    color: #33cc99;
+    padding-bottom: 50px;
+    padding-top: 60px;
   }
 }
 @media only screen and (max-width: 480px) {
   .graphic-container {
     justify-content: center;
-    height: 550px;
+    height: 480px;
   }
 
   .splash-page {
-    width: 1230px;
+    width: 360px;
     margin-top: 60px;
   }
 
-  h1 {
+  div.no-r-padding {
+    padding-left: 0;
+  }
+
+  h1.splash-title {
     color: #4A6058;
     font-family: MontserratExtraBold, sans-serif;
-    font-size: 45px;
-    padding-top: 15px;
+    font-size: 27px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
   }
 
   h2.splash-title {
     color: #76867E;
     font-family: MontserratLight, sans-serif;
     font-style: Italic;
-    font-size: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  div.image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .jumbo h1 {
+    color: #33cc99;
+    font-family: MontserratSemiBold, sans-serif;
+    font-size: 17px;
     margin-top: 15px;
+  }
+
+  .jumbo h1.extra-margin {
+    margin-top: 15px;
+  }
+
+  .jumbo h2 {
+    color: #33cc99;
+    font-family: MontserratLight, sans-serif;
+    font-style: Italic;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .jumbo {
+    background-color: #0C2117;
+    color: #33cc99;
+    padding-bottom: 50px;
+    padding-top: 60px;
   }
 }
 

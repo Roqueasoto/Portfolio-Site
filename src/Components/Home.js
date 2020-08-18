@@ -16,7 +16,7 @@ function Home(props) {
                             <Row>
                                 <Col className="no-r-padding">
                                     <h1 className="splash-title">
-                                        Software Engineer With <br/>
+                                        Software Engineer With
                                         A<mark>Creative Edge</mark>
                                     </h1>
                                 </Col>
@@ -43,19 +43,21 @@ function Home(props) {
                 </Row>
             </Container>
             <Jumbotron fluid className="jumbo" ref={props.portfolioRef}>
-                <h1 className="d-flex justify-content-center">
-                    Hi there! I'm Roque, nice to meet you.
-                </h1>
-                <h2 className="d-flex justify-content-center">
-                    I’m a software engineer based in Pittsburgh, PA. My development
-                    experiences <br/> range from web development across the full
-                    stack to client-facing consulting. <br/> My passion for user-centered
-                    design and clean, stylish aesthetics is what <br/> elevates my
-                    projects to the next level.
-                </h2>
-                <h1 className="d-flex justify-content-center">
-                    Here is my portfolio.
-                </h1>
+                <Container>
+                    <h1 className="d-flex justify-content-center">
+                        Hi there! I'm Roque, nice to meet you.
+                    </h1>
+                    <h2 className="d-flex justify-content-center">
+                        I’m a software engineer based in Pittsburgh, PA. My development
+                        experiences range from web development across the full
+                        stack to client-facing consulting. My passion for user-centered
+                        design and clean, stylish aesthetics is what elevates my
+                        projects to the next level.
+                    </h2>
+                    <h1 className="extra-margin d-flex justify-content-center">
+                        Here is my portfolio.
+                    </h1>
+                </Container>
             </Jumbotron>
             <PortfolioCards/>
         </div>
