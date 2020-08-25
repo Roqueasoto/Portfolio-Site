@@ -13,9 +13,13 @@ function Social(props) {
             <Container fluid>
                 <Row>
                     <Col className="d-flex justify-content-center">
+                        <p className="social">Get in touch at <mark>roquealbertosoto@gmail.com</mark></p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="d-flex justify-content-center">
                         <Link className="footer-link" to="/home" onClick={props.handleScroll}>Home</Link>
                         <a className="footer-link" href={Resume} target='_blank' rel="noopener noreferrer">Resume</a>
-                        <Link className="footer-link" to="/aboutMe" onClick={props.handleScroll}>About Me</Link>
                     </Col>
                     <Col className="d-flex justify-content-center">
                         <a href="https://www.linkedin.com/in/roque-soto-castaneda/"

@@ -1,5 +1,20 @@
 @import "./Site-Scheme.scss";
 
+p.social {
+  color: $base-font-color-light;
+  font-family: MontserratBold, sans-serif;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+
+p.social mark {
+  color: $highlight-color;
+  background: none;
+}
+
 .social {
   padding: 10px 5px;
 }

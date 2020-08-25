@@ -53,12 +53,20 @@ a.nav-link {
   margin-bottom: 5px;
 }
 
-a.nav-link:focus {
-  color: #0C2117;
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link.active {
+  color: #76867E;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #4A6058;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #76867E;
 }
 
 a.nav-link:hover, a.nav-link:active {
-  color: #4A6058;
+  color: #76867E;
   border-bottom: 2px solid #33cc99;
   margin-bottom: -2px;
   width: fit-content;

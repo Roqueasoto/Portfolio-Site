@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image, Jumbotron } from "react-bootstrap";
-import tabletgraphic from "../img/UprightPhoneTrimDark.svg";
+import tabletgraphic from "../img/UprightPhoneTrimDarkSmall.svg";
 import downArrow from "../img/DownArrow.svg";
 import PortfolioCards from "./PortfolioCards";
 import '../css/Home.css';

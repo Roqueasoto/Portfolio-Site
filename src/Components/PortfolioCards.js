@@ -1,6 +1,10 @@
 import React from 'react';
 import {CardDeck, Card, Container, Row, Col} from "react-bootstrap";
-import tabletgraphic from "../img/SidewaysTabletTrim2.svg";
+import PortfolioSite from "../img/PortfolioSite.svg";
+import PMIS from "../img/PMIS.svg";
+import CCVisualizer from "../img/ClimateChangeVisualizer.svg";
+import Ocamon from "../img/Ocamon.svg";
+import Scanner from "../img/PhotoScanner.svg";
 import '../css/PortfolioCards.css';
 
 
@@ -12,7 +16,7 @@ function PortfolioCards() {
                     <CardDeck>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={tabletgraphic}/>
+                                <Card.Img variant="top card-img-under" src={PortfolioSite}/>
                                 <p className="card-img-over">This Website!</p>
                             </div>
                             <Card.Body>
@@ -41,7 +45,7 @@ function PortfolioCards() {
                         </Card>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={tabletgraphic}/>
+                                <Card.Img variant="top card-img-under" src={PMIS}/>
                                 <p className="card-img-over">Portfolio Insights</p>
                             </div>
                             <Card.Body>
@@ -76,7 +80,7 @@ function PortfolioCards() {
                         </Card>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={tabletgraphic}/>
+                                <Card.Img variant="top card-img-under" src={CCVisualizer}/>
                                 <p className="card-img-over">Climate Change <br/> Visualizer</p>
                             </div>
                             <Card.Body>
@@ -116,7 +120,7 @@ function PortfolioCards() {
                     <CardDeck>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={tabletgraphic}/>
+                                <Card.Img variant="top card-img-under" src={Ocamon}/>
                                 <p className="card-img-over">Ocamon!</p>
                             </div>
                             <Card.Body>
@@ -145,7 +149,7 @@ function PortfolioCards() {
                         </Card>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={tabletgraphic}/>
+                                <Card.Img variant="top card-img-under" src={Scanner}/>
                                 <p className="card-img-over">Photo to Document <br/> Converter</p>
                             </div>
                             <Card.Body>

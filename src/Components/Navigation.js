@@ -31,7 +31,6 @@ export class Navigation extends React.Component {
                         <Nav className="ml-auto">
                             <Nav.Link as={Link} to="/home" >Home</Nav.Link>
                             <Nav.Link href={Resume} target='_blank' rel="noopener noreferrer">Resume</Nav.Link>
-                            <Nav.Link as={Link} to="/aboutMe/">About Me</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

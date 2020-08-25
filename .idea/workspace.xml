@@ -20,21 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82261fb5-b641-48ce-b8ac-b5fe08b1eb0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AboutMe.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Home.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PortfolioCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PortfolioCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/RouteContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/RouteContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Social.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Social.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Nav.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Nav.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/PortfolioCards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/PortfolioCards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/PortfolioCards.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/PortfolioCards.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/PortfolioCards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/PortfolioCards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Social.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Social.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Social.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Social.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Social.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/BackgroundArt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/BackgroundArt_Aqua.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/BackgroundArt_Red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/PortfolioSite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/SidewaysTablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/SidewaysTabletTrim.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/SidewaysTabletTrim.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/SidewaysTabletTrim2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UprightPhone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UprightPhoneOutline-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UprightPhoneTrim.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UprightPhoneTrimDark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/UprightPhoneTrimDrawn.svg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,12 +58,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state relative-caret-position="510">
+              <caret line="36" column="86" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Social.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/Site-Scheme.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/Social.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/RouteContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -63,59 +128,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/Home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3669">
-              <caret line="270" column="26" selection-start-line="270" selection-start-column="26" selection-end-line="270" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/Site-Scheme.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/Social.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/Style.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/PortfolioCards.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/App.scss">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/index.css">
+        <entry file="file://$PROJECT_DIR$/src/Components/PortfolioCards.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/Nav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -136,19 +173,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/Home.js" />
         <option value="$PROJECT_DIR$/src/css/PortfolioCards.scss" />
         <option value="$PROJECT_DIR$/src/css/Home.scss" />
-        <option value="$PROJECT_DIR$/src/css/Nav.scss" />
-        <option value="$PROJECT_DIR$/src/css/Social.scss" />
         <option value="$PROJECT_DIR$/src/css/App.scss" />
+        <option value="$PROJECT_DIR$/src/Components/PortfolioCards.js" />
+        <option value="$PROJECT_DIR$/src/Components/Home.js" />
+        <option value="$PROJECT_DIR$/src/Components/AboutMe.js" />
+        <option value="$PROJECT_DIR$/src/css/AboutMe.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Navigation.js" />
+        <option value="$PROJECT_DIR$/src/Components/Social.js" />
+        <option value="$PROJECT_DIR$/src/css/Social.scss" />
+        <option value="$PROJECT_DIR$/src/Components/RouteContainer.js" />
+        <option value="$PROJECT_DIR$/src/css/Nav.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1738" />
-    <option name="width" value="2117" />
-    <option name="height" value="2109" />
+    <option name="x" value="1525" />
+    <option name="y" value="43" />
+    <option name="width" value="2310" />
+    <option name="height" value="2114" />
   </component>
   <component name="ProjectId" id="1fZYr60NZLCP5aaEWRdcwd6fpjC" />
   <component name="ProjectView">
@@ -253,36 +297,59 @@
       <workItem from="1596509607088" duration="39228000" />
       <workItem from="1596720538286" duration="7196000" />
       <workItem from="1597687197097" duration="1167000" />
-      <workItem from="1597691916641" duration="9193000" />
+      <workItem from="1597691916641" duration="11232000" />
+      <workItem from="1597772487997" duration="11323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9193000" />
+    <option name="totallyTimeSpent" value="22555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1159" y="0" width="1411" height="1406" extended-state="0" />
+    <frame x="1017" y="29" width="1540" height="1409" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21906841" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20026614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.4992722" visible="true" weight="0.32967034" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.4985444" weight="0.32967034" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007278" side_tool="true" visible="true" weight="0.32967034" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49902725" weight="0.32889584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992722" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50097275" side_tool="true" weight="0.32811275" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49708173" weight="0.32889584" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23984064" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49902725" weight="0.32889584" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4992722" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50097275" side_tool="true" visible="true" weight="0.32811275" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49708173" weight="0.32889584" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -391,29 +458,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/Home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3669">
-          <caret line="270" column="26" selection-start-line="270" selection-start-column="26" selection-end-line="270" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/Nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/css/Style.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/PortfolioCards.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,21 +468,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/Site-Scheme.scss">
+    <entry file="file://$PROJECT_DIR$/src/css/App.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/Social.scss">
+    <entry file="file://$PROJECT_DIR$/src/Components/PortfolioCards.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/Style.scss">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/esm/Row.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/App.scss">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/Components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="86" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/AboutMe.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AboutMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Social.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/Home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/Social.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/RouteContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/Site-Scheme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/Nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
