@@ -6,15 +6,15 @@ import '../css/Fade.css';
 function RouteContainer(props) {
     return (
         <div>
-            <Route path="/home" render={() =>
+            <Route path={process.env.PUBLIC_URL + "/home"} render={() =>
                 <Home {...props} portfolioRef={props.portfolioRef}
                       handleScroll={() => props.handleScroll()}
                 />}
             />
             <Route
                 exact
-                path="/"
-                render={() => {return (<Redirect to="/home" />)}}
+                path={process.env.PUBLIC_URL + "/"}
+                render={() => {return (<Redirect to={process.env.PUBLIC_URL + "/home"} />)}}
             />
         </div>
     );
