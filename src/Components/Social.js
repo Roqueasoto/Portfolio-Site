@@ -18,7 +18,7 @@ function Social(props) {
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center">
-                        <Link className="footer-link" to="/home" onClick={props.handleScroll}>Home</Link>
+                        <Link className="footer-link" to="" onClick={props.handleScroll}>Home</Link>
                         <a className="footer-link" href={Resume} target='_blank' rel="noopener noreferrer">Resume</a>
                     </Col>
                     <Col className="d-flex justify-content-center">

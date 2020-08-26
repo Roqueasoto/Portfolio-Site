@@ -25,11 +25,11 @@ export class Navigation extends React.Component {
         return (
             <Navbar variant="light" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand as={Link} to="/home">Roque Soto Castaneda</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="">Roque Soto Castaneda</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
-                            <Nav.Link as={Link} to="/home" >Home</Nav.Link>
+                            <Nav.Link as={Link} to="" >Home</Nav.Link>
                             <Nav.Link href={Resume} target='_blank' rel="noopener noreferrer">Resume</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
