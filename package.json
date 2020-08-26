@@ -2,7 +2,7 @@
   "name": "portfolio_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://roquesoto.dev",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

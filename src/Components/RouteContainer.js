@@ -6,7 +6,7 @@ import '../css/Fade.css';
 function RouteContainer(props) {
     return (
         <div>
-            <Route path={"/"} render={() =>
+            <Route path='/' render={() =>
                 <Home {...props} portfolioRef={props.portfolioRef}
                       handleScroll={() => props.handleScroll()}
                 />}

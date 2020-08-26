@@ -22,7 +22,7 @@ export class App extends React.Component {
 
     render() {
         return (
-            < Router basename={process.env.PUBLIC_URL}>
+            < Router basename={`${process.env.PUBLIC_URL}/`}>
                 <div className="App">
                     <Navigation handleScroll={() => this.scrollToPortfolio()}/>
                     <RouteContainer portfolioRef={this.portfolioRef}
