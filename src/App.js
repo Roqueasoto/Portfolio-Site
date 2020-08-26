@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/App.css';
 import { Navigation } from "./Components/Navigation";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import RouteContainer from "./Components/RouteContainer";
 import Social from "./Components/Social";
 
@@ -22,7 +22,7 @@ export class App extends React.Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <Router>
                 <div className="App">
                     <Navigation handleScroll={() => this.scrollToPortfolio()}/>
                     <RouteContainer portfolioRef={this.portfolioRef}
@@ -30,7 +30,7 @@ export class App extends React.Component {
                     />
                     <Social handleScroll={() => this.handleScrollTop()} />
                 </div>
-            </BrowserRouter>
+            </Router>
         );
     }
 }
