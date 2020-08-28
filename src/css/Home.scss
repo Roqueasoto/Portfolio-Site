@@ -34,12 +34,16 @@ h1 mark {
   color: $base-color;
 }
 
-.center-icon:hover, center-icon:active {
-  position: absolute;
+.center-icon:hover {
+  animation-name: drop;
+  animation-timing-function: ease;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: scale(1.05,.95) translate(-48%, -20%);
   color: $base-color;
+}
+
+@keyframes drop {
 }
 
 @media only screen and (min-width: 1025px) {

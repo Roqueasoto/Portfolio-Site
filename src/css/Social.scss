@@ -52,3 +52,33 @@ a.social:hover {
   border-bottom: 2px solid $base-color;
   margin-bottom: -2px;
 }
+
+p.social mark {
+  color: $highlight-color;
+  background: none;
+}
+
+@media only screen and (min-width: 481px) {
+  p.social {
+    color: $base-font-color-light;
+    font-family: MontserratBold, sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  p.social {
+    color: $base-font-color-light;
+    font-family: MontserratBold, sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}

@@ -68,14 +68,16 @@ h1 mark {
   color: #f8f9fa;
 }
 
-.center-icon:hover, center-icon:active {
-  position: absolute;
+.center-icon:hover {
+  animation-name: drop;
+  animation-timing-function: ease;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: scale(1.05, 0.95) translate(-48%, -20%);
   color: #f8f9fa;
 }
 
+@keyframes drop {}
 @media only screen and (min-width: 1025px) {
   .graphic-container {
     justify-content: flex-end;
