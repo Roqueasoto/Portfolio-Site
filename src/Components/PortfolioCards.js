@@ -57,6 +57,7 @@ function PortfolioCards() {
                                     <Col className="no-r-padding">
                                         <Card.Title>Tools -</Card.Title>
                                         <ul className="card-list">
+                                            <li>Angular</li>
                                             <li>Power BI</li>
                                             <li>SQL Server</li>
                                             <li>Bootstrap</li>
