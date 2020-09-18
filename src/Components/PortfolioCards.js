@@ -16,7 +16,7 @@ function PortfolioCards() {
                     <CardDeck>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={PortfolioSite}/>
+                                <Card.Img variant="top card-img-under" src={PortfolioSite} alt="Image of this website"/>
                                 <p className="card-img-over">This Website!</p>
                             </div>
                             <Card.Body>
@@ -45,7 +45,9 @@ function PortfolioCards() {
                         </Card>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={PMIS}/>
+                                <Card.Img variant="top card-img-under" src={PMIS}
+                                          alt="Project Management sys. dashboard"
+                                />
                                 <p className="card-img-over">Portfolio Insights</p>
                             </div>
                             <Card.Body>
@@ -81,7 +83,7 @@ function PortfolioCards() {
                         </Card>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={CCVisualizer}/>
+                                <Card.Img variant="top card-img-under" src={CCVisualizer} alt="Earth from space"/>
                                 <p className="card-img-over">Climate Change <br/> Visualizer</p>
                             </div>
                             <Card.Body>
@@ -121,7 +123,7 @@ function PortfolioCards() {
                     <CardDeck>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={Ocamon}/>
+                                <Card.Img variant="top card-img-under" src={Ocamon} alt="Gameboy Color"/>
                                 <p className="card-img-over">Ocamon!</p>
                             </div>
                             <Card.Body>
@@ -150,7 +152,9 @@ function PortfolioCards() {
                         </Card>
                         <Card>
                             <div className="card-img-wrap">
-                                <Card.Img variant="top card-img-under" src={Scanner}/>
+                                <Card.Img variant="top card-img-under" src={Scanner}
+                                          alt="Person taking picture of document"
+                                />
                                 <p className="card-img-over">Photo to Document <br/> Converter</p>
                             </div>
                             <Card.Body>

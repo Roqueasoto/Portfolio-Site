@@ -1,7 +1,7 @@
 @import "./Site-Scheme.scss";
 
 p.social {
-  color: $base-font-color-light;
+  color: $base-font-color-extra-light;
   font-family: MontserratBold, sans-serif;
   font-size: 16px;
   padding-top: 15px;
@@ -20,7 +20,7 @@ p.social mark {
 }
 
 a.social {
-  color: $base-font-color-light;
+  color: $base-font-color-extra-light;
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
@@ -37,7 +37,7 @@ a.social:hover {
 }
 
 .footer-link {
-  color: $base-font-color-light;
+  color: $base-font-color-extra-light;
   font-family: MontserratBold, sans-serif;
   font-size: 18px;
   padding-top: 15px;
@@ -60,7 +60,7 @@ p.social mark {
 
 @media only screen and (min-width: 481px) {
   p.social {
-    color: $base-font-color-light;
+    color: $base-font-color-extra-light;
     font-family: MontserratBold, sans-serif;
     font-size: 16px;
     padding-top: 15px;
@@ -72,7 +72,7 @@ p.social mark {
 
 @media only screen and (max-width: 480px) {
   p.social {
-    color: $base-font-color-light;
+    color: $base-font-color-extra-light;
     font-family: MontserratBold, sans-serif;
     font-size: 16px;
     padding-top: 15px;

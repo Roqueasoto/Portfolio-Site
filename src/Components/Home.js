@@ -34,9 +34,9 @@ function Home(props) {
                     </Col>
                     <Col className="graphic-container">
                         <div className="image">
-                            <Image className="graphic-container" src={tabletgraphic}/>
+                            <Image className="graphic-container" src={tabletgraphic} alt="Hand-drawn upright phone"/>
                             <Link to="#" onClick={props.handleScroll} className="center-icon">
-                                <Image className="center-icon bounce" src={downArrow}/>
+                                <Image className="center-icon bounce" src={downArrow} alt="Hand-drawn downwards Arrow"/>
                             </Link>
                         </div>
                     </Col>

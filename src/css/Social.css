@@ -35,7 +35,7 @@
   src: local("MontserratThin"), url("../fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
 }
 p.social {
-  color: #76867E;
+  color: #87978f;
   font-family: MontserratBold, sans-serif;
   font-size: 16px;
   padding-top: 15px;
@@ -54,7 +54,7 @@ p.social mark {
 }
 
 a.social {
-  color: #76867E;
+  color: #87978f;
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
@@ -71,7 +71,7 @@ a.social:hover {
 }
 
 .footer-link {
-  color: #76867E;
+  color: #87978f;
   font-family: MontserratBold, sans-serif;
   font-size: 18px;
   padding-top: 15px;
@@ -94,7 +94,7 @@ p.social mark {
 
 @media only screen and (min-width: 481px) {
   p.social {
-    color: #76867E;
+    color: #87978f;
     font-family: MontserratBold, sans-serif;
     font-size: 16px;
     padding-top: 15px;
@@ -105,7 +105,7 @@ p.social mark {
 }
 @media only screen and (max-width: 480px) {
   p.social {
-    color: #76867E;
+    color: #87978f;
     font-family: MontserratBold, sans-serif;
     font-size: 16px;
     padding-top: 15px;
