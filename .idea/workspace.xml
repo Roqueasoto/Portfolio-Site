@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82261fb5-b641-48ce-b8ac-b5fe08b1eb0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PortfolioCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PortfolioCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/.~lock.PortfolioSite.svg#" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1624914536026" duration="1135000" />
       <workItem from="1624915714188" duration="1826000" />
       <workItem from="1627183946623" duration="246000" />
-      <workItem from="1627184202596" duration="4609000" />
+      <workItem from="1627184202596" duration="5231000" />
     </task>
     <servers />
   </component>
