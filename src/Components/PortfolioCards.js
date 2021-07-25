@@ -5,6 +5,7 @@ import PMIS from "../img/PMIS.svg";
 import CCVisualizer from "../img/ClimateChangeVisualizer.svg";
 import Ocamon from "../img/Ocamon.svg";
 import Scanner from "../img/PhotoScanner.svg";
+import Pie from "../img/MarisaPie.svg"
 import '../css/PortfolioCards.css';
 
 
@@ -14,6 +15,40 @@ function PortfolioCards() {
             <Row>
                 <Col className="card-row d-flex justify-content-center">
                     <CardDeck>
+                        <Card>
+                            <div className="card-img-wrap">
+                                <Card.Img variant="top card-img-under" src={Pie} alt="Blueberry Apple Pie"/>
+                                <p className="card-img-over">Taste That!</p>
+                            </div>
+                            <Card.Body>
+                                <Card.Text>
+                                    Built a React/Node.js web-app with a team using open-source data
+                                    on a AWS db with user login & favorites.
+                                </Card.Text>
+                                <Row>
+                                    <Col className="no-r-padding">
+                                        <Card.Title>Tools -</Card.Title>
+                                        <ul className="card-list">
+                                            <li>Node.js</li>
+                                            <li>React</li>
+                                            <li>Express.js</li>
+                                            <li>AWS</li>
+                                            <li>Material Design</li>
+                                        </ul>
+                                    </Col>
+                                    <Col className="no-r-padding">
+                                        <Card.Title>Skills -</Card.Title>
+                                        <ul className="card-list">
+                                            <li>Javascript</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>SQL</li>
+                                            <li>CRUD APIs</li>
+                                        </ul>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
                         <Card>
                             <div className="card-img-wrap">
                                 <Card.Img variant="top card-img-under" src={PortfolioSite} alt="Image of this website"/>
@@ -53,7 +88,7 @@ function PortfolioCards() {
                             <Card.Body>
                                 <Card.Text>
                                     Worked on a project management info. system
-                                    as a web developer.
+                                    as a software engineer.
                                 </Card.Text>
                                 <Row>
                                     <Col className="no-r-padding">
@@ -75,12 +110,18 @@ function PortfolioCards() {
                                             <li>SQL</li>
                                             <li>Coldfusion</li>
                                             <li>Agile</li>
-                                            <li>Client Support</li>
+                                            <li>CRUD APIs</li>
                                         </ul>
                                     </Col>
                                 </Row>
                             </Card.Body>
                         </Card>
+                    </CardDeck>
+                </Col>
+            </Row>
+            <Row>
+                <Col className="card-row d-flex justify-content-center">
+                    <CardDeck>
                         <Card>
                             <div className="card-img-wrap">
                                 <Card.Img variant="top card-img-under" src={CCVisualizer} alt="Earth from space"/>
@@ -115,12 +156,6 @@ function PortfolioCards() {
                                 </Row>
                             </Card.Body>
                         </Card>
-                    </CardDeck>
-                </Col>
-            </Row>
-            <Row>
-                <Col className="card-row d-flex justify-content-center">
-                    <CardDeck>
                         <Card>
                             <div className="card-img-wrap">
                                 <Card.Img variant="top card-img-under" src={Ocamon} alt="Gameboy Color"/>
